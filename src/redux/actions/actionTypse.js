@@ -1,9 +1,3 @@
-import React, { Component } from 'react'
-
-export default class actionTypse extends Component {
-  render() {
-    return (
-      <div>actionTypse</div>
-    )
-  }
-}
+export const INCREASE_COUNTER="INCREASE_COUNTER"
+export const DECREASE_COUNTER="DECREASE_COUNTER"
+export const INCREASE_BY_TWO_COUNTER="INCREASE_BY_TWO_COUNTER"
